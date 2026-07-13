@@ -1,0 +1,2 @@
+FROM diegosouzapw/omniroute:3.8.44
+ENV OMNIROUTE_USE_TURBOPACK=0

@@ -1,0 +1,8 @@
+approvals:
+  mode: smart
+  cron_mode: approve
+  deny:
+    - "rm -rf /opt/data*"
+    - "*>/opt/data/.env*"
+terminal:
+  backend: local
